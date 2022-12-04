@@ -4,26 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="stytle.css">
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="system.js"></script>
 </head>
 <body>
-        <header>
-            <div class="main1">
-                <div class="left-header">
-                    <div class="img">
-                        <img src="img/pic1.jpg" alt="logo" class="main-img">
+    <!--------start-main-section---------->
+    <div id="header">
+        <div class="container">
+            <div class="logo-text">
+                <h1>PORT<span>FOLIO</span></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#header">Main</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Certificates & Activities</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-text">
+            <h2>Hi, I'm <span>Chayakorn Aree</span></h2>
+            <p><b>From Watpapradoo School and From M.6/4
+            </p>
+            <p><b>Bachelor of Engineering (Computer Engineering)</p>
+        </div>
+    </div>
+    <!--------end-main-section-------->
+
+    <!----------start-about-section--------->
+    <div id="about">
+        <div class="container">
+            <div class="mypic">
+                <img src="img/about-pg1.jpeg" alt="picture1">
+            </div>
+            <div class="about-text">
+                <div class="col-1">
+                    <h1 class="aboutme-text">About Me</h1>
+                    <p class="textaboutme">My name is Chayakorn Aree or Haris.My birthday is on 9th November 2006.My Blood type is B.I'm Thai.My religion is Muslim.<br>My address is 118/2 No.1 Ta Khan, Baan Khai, Rayong, 21120.I'm friendly and quite quiet but I can socialize and I know how to socialize.<br>In my free time,I'm always practicing coding and learning about computers.And that's why I can fix computers and make web application.
+                    </p>
+                    <div class="title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('inspiration')">Inspiration</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span class="section-text">FrontEnd/BackEnd</span><br><span class="text-details">Python, HTML5, CSS, Javascript</span></li>
+                            <li><span  class="section-text">Web Develop</span><br><span class="text-details">I can dev or make web applications</span></li>
+                            <li><span  class="section-text">Fix Computers</span><br><span class="text-details">I can fix computers in basic</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="inspiration">
+                        <span class="inspiration">
+                            My Inspiration to be a computer engineer<br>
+                        </span>
+                        <span class="inspiration">
+                            When I was yong,my father let me try to play Minecraft.So,I have been playing this game ever since.<br>Until one day,my com was broken and my father take me to Star I.T. to fix my computer.<br>I saw the computer repair technician was fixing my computer I feel wonder how computers work <br>and want to know how to fix it.Since then I learned too much about computer from the internet <br>and from my father.When I was 14 years old,my father let me study about computer with <br>the computer repair technician at Star I.T.so, I learn about how to install window 10 and fix <br>the initial symptoms of computers.After 15 years old,I learn about computers from the internet by myself. <br>That's why I want to be a computer engineer.I want to study at King Mongkut's University of Technology North Bangkok.<br>Because I heard that your university is famous for engineering.
+                        </span>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span class="section-text">Elementary School</span><br><span class="text-details"><b>Watlum School</b> <br>I study Kindergarten 1 to Grade 6 at this school.</span></li>
+                            <li><span class="section-text">Secondary School</span><br><span class="text-details"><b>Watpapradoo School</b> <br>I study Grade 7 to 9 at this school.</span></li>
+                            <li><span class="section-text">High School</span><br><span class="text-details"><b>Watpapradoo School </b><br>I study Grade 10 to 12 at this school.</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="text">
-                <h1>Hi, I'm  Chaykorn Aree. A Developer OF Operations.</h1>
-            </div>
-        </header>
+        </div>
+    </div>
+    <!----------end-about-section----------->
 </body>
 </html>
