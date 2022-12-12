@@ -166,3 +166,90 @@ nav  ul li a:hover::after{
 .tab-content.active-tab{
     display: block;
 }
+/*end about section*/
+
+/*start certificates and activities section*/
+.details {
+    font-weight: 500;
+    color: #ababab;
+    font-size: 18px;
+}
+.activities h1{
+    position: relative;
+    left: 50%;
+    max-height: 500px;
+    max-width: 500px;
+    bottom: -80px;
+}
+.activities img{
+    position: absolute;
+    top: 2000px;
+    border-radius: 10%;
+}
+.details {
+    position: relative;
+    bottom: -220px;
+    max-width: 700px;
+    left: 40%;
+}
+.certificates h1{
+    width: 12%;
+    height: 100px;
+    position: relative;
+    left: 45%;
+    bottom: -660px;
+}
+.img-tag img{
+    height: 340px;
+    position:relative;
+    top: 660px;
+    left: 80px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+/*end certificates and activities section*/
+
+.border-color img{
+    width: 2700px;
+    height: 110px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+/*border menu and logo*/
+
+/*contact sections*/
+.border-back img{
+    width: 10000px;
+    height: 280px;
+    position: absolute;
+    right: 0px;
+    top: 3100px;
+}
+.text-contacts h1{
+    position: absolute;
+    left: 100px;
+    top: 3220px;
+    font-size: 48px;
+}
+.detail-text-contact{
+    position: absolute;
+    left: 600px;
+    top: 3170px;
+}
+.detail-text-contact p{
+    font-size: 20px;
+    color: #ababab;
+}
+.detail-text-contact p i{
+    color: #009EFE;
+    font-size: 25px;
+}
+.detail-text-contact a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+}
